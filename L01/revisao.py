@@ -1,0 +1,16 @@
+a = 2 + 3 * 4
+print(f'2 + 3 * 4 = {a}')
+b = (2 + 3) * 4
+print(f'(2 + 3) * 4 = {b}')
+c = 17 // 5
+print(f'17 // 5 = {c}')
+d = 17 % 5
+print(f'17 % 5 = {d}')
+e = "FP" * 3
+print(f'"FP" * 3 = {e}')
+f = int("18")
+print(f'int("18") = {f}')
+g = float("1.72")
+print(f'float("1.72") = {g}')
+h = int("1.72") # Esta produz uma exceção porque estamos a tentar converter um número decimal para um inteiro
+print(f'int("1.72") = {h}')
